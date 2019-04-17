@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="skip">3s skip</string>
+    <string name="seconds_skip">s skip</string>
+    <string name="singer_name">Singer Name:</string>
+    <string name="song_name">Song Name:</string>
+    <string name="collection_name">Collection Name:</string>
+    <string name="song_price">Song Price:</string>
+    <string name="_11_50">11.50</string>
+    <string name="country">Country:</string>
+    <string name="usa">USA</string>
+    <string name="release_data">Release Data:</string>
+    <string name="_1982_11_30t08_00_00z">1982-11-30T08:00:00Z</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="billie_jean">Billie Jean</string>
+    <string name="michael_jackson">Michael Jackson</string>
+    <string name="dash">-</string>
+    <string name="the_essential_michael_jackson">The Essential Michael Jackson</string>
+</resources>

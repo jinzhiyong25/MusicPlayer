@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/singer_name"
+        android:layout_below="@id/image_detail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/textview_singername_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/michael_jackson"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:layout_below="@id/image_detail"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        />
+
+    <!--Song Name-->
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/song_name"
+        android:layout_below="@id/name"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/textview_songname_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/billie_jean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textview_singername_detail"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:maxLines="1"
+
+        />
+
+    <!--Collection Name-->
+
+    <TextView
+        android:id="@+id/collection_name_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/collection_name"
+        android:layout_below="@id/song_name"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/textview_collectionname_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/billie_jean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/textview_songname_detail"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:maxLines="1"
+        />
+
+    <!--Song Price-->
+    <TextView
+        android:id="@+id/price_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/song_price"
+        android:layout_below="@id/collection_name_"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textview_songprice_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/price_name"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textview_collectionname_detail"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        />
+
+    <!--Country-->
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/country"
+        android:layout_below="@id/price_name"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textview_country_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/price_name"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textview_songprice_detail"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        />
+
+    <!--Release Data-->
+    <TextView
+        android:id="@+id/release_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/release_data"
+        android:layout_below="@id/country_name"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textview_releasedata_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1982_11_30t08_00_00z"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/price_name"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textview_country_detail"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        />
+
+
+    <!--Play Button-->
+    <Button
+        android:id="@+id/play_button_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_below="@id/release_data"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+
+        />
+
+    <!--Stop Button-->
+    <Button
+        android:id="@+id/stop_button_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:layout_below="@id/textview_releasedata_detail"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/play_button_detail"
+        android:layout_marginLeft="80dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
